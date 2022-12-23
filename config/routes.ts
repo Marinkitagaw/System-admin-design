@@ -47,6 +47,11 @@ export default [
         component: './Management/UserManage',
       },
       {
+        path: '/root/department',
+        name: '部门管理',
+        component: './Management/Department',
+      },
+      {
         path: '/root/character/create',
         name: '新建角色',
         component: './Management/Character/Create',
